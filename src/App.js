@@ -11,13 +11,13 @@ const players = [
     color: 'blue'
   },
   {
-    color: 'orange'
+    color: 'red'
   },
   {
-    color: 'green'
+    color: 'teal'
   },
   {
-    color: 'indigo'
+    color: 'pink'
   },
 ];
 
