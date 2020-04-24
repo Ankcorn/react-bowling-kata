@@ -1,23 +1,9 @@
 import React from 'react';
+import { render } from '@testing-library/react';
 import App from './App';
-import {shallow, mount} from 'enzyme';
-import ScoreBoard from './ScoreBoard';
-import RollButtons from './RollButtons';
 
-function setup() {
-  return shallow(<App />);
-}
-
-it('renders without crashing', () => {
-  shallow(<App />);
-});
-
-it('renders a ScoreBoard component', () => {
-  const wrapper = setup();
-  expect(wrapper.find(ScoreBoard)).toBeDefined();
-});
-
-it('renders a RollButtons component', () => {
-  const wrapper = setup();
-  expect(wrapper.find(RollButtons)).toBeDefined();
+test('renders learn react link', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
 });
