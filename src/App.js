@@ -3,7 +3,6 @@ import logo from './big_l.png'
 import RollBoard from './RollButtons';
 import ScoreBoard from './ScoreBoard';
 
-
 import './tailwind.generated.css';
 
 const players = [
