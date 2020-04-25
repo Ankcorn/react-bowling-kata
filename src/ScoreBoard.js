@@ -3,12 +3,9 @@ import Frame from './Frame';
 
 const ScoreBoard = ({color, number}) => {
   return (
-    <div className="flex bg-gray-900 rounded-lg shadow-xl">
-      <div className={`bg-${color}-800 rounded-tl-lg rounded-bl-lg`}>
-        <p class="font-bold p-6 text-gray-300">Player {number}</p>
-        <p class="font-bold p-6 text-gray-300">
-         Total: 90
-        </p>
+    <div className="flex bg-gray-900 rounded shadow-xl">
+      <div className={`bg-${color}-800 rounded-l w-4`}>
+        
       </div>
       <div className="flex p-6">
         <Frame/>
