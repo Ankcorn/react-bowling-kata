@@ -9,7 +9,7 @@ You figure this could be your big break into the world of Bowling Software!
 You show up at the Bowling alley and see that they have an initial design up for their app, 
 but with no functionality :O
 
-![Bowling App Design](./preview.png)
+![Bowling App Design](./design.png)
 
 As it is they have a list of requirements ready:
 
