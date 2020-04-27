@@ -25,7 +25,7 @@ function App() {
     <div className="bg-gray-800 h-screen w-screen flex justify-between">
       <RollBoard/>
     <div className="overflow-scroll flex flex-col space-y-12 items-center flex-1">
-      <div className="p-3 m-3 bg-red-800 rounded-lg">
+      <div className="p-3 m-3 bg-blue-800 rounded-lg">
         <img src={logo} alt="" className="rounded-lg h-64" />
       </div>
       {players.map((el, i) => <ScoreBoard color={el.color} number={i+1} />)}
